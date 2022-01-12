@@ -1,0 +1,15 @@
+.background{
+    background-color: black;
+}
+strong{
+    font-family: 'Tahoma';
+    font-size:20px;
+}
+ i {
+     color:red;
+ }
+ p {
+     font-family: 'Franklin Gothic Book';
+     font-size:14px;
+     padding: 1px;
+ }

@@ -24,12 +24,6 @@
     <title>Portfolio - PyroC4t</title>
     <link rel="icon" type="image/x-icon" href="/image/favicon.ico">
 
-   <style>
-      body{
-        background-color:black;
-      }
-    </style>
-
 </head>
 <body>
     <nav class="navbar navbar-dark" style="background-color: black;">
@@ -50,8 +44,39 @@
           </div>
         </div>
       </nav>
+      
+    <!-- seteo del carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-    <img src="/image/background2.jpg" class="img-fluid" alt="background">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        </div>
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/image/carrousel2.png" alt="fullstack developer" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="/image/carrousel1.png" alt="diseño grafico" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="/image/carrousel3.png" alt="fotografia" class="d-block" style="width:100%">
+          </div>
+          <div class="carousel-item">
+            <img src="/image/carrousel4.png" alt="editor de video" class="d-block" style="width:100%">
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
 
     <div class="container-sm mt-1">
       <div class="row d-flex">
@@ -60,7 +85,7 @@
             <img class="card-img-top" src="/image/Dino-vs-Meteor_800x800_SEPS-1000x1000.jpg" alt="imagen perfil" style="width:auto">
             <div class="card-body">
               <h5 class="card-title text-white">L Serrano</h5>
-              <p style="color:white">Software Developer</p>
+              <p style="color:white">Full Stack Developer Jr.</p>
               <p style="color:white">Graphic Designer</p>
             </div>
         </div>

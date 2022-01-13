@@ -1,4 +1,4 @@
-.background{
+body{
     background-color: black;
 }
 strong{
@@ -7,9 +7,8 @@ strong{
 }
  i {
      color:red;
- }
+}
  p {
      font-family: 'Franklin Gothic Book';
      font-size:14px;
-
- }
+}

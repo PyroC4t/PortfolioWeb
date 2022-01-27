@@ -1,9 +1,14 @@
 body{
     background-color: black;
 }
+h4{
+    font-family: Tahoma;
+    color: white
+}
 strong{
     font-family: 'Tahoma';
     font-size:20px;
+    color: white
 }
  i {
      color:red;
@@ -11,4 +16,5 @@ strong{
  p {
      font-family: 'Franklin Gothic Book';
      font-size:14px;
+     color:white;
 }
